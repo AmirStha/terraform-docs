@@ -1,6 +1,7 @@
 git clone https://github.com/AmirStha/terraform-docs.git
 cd terraform-docs
-git checkout clickable-module-source
+git fetch
+git switch clickable-module-source
 go build
 mv terraform-docs ../terraform-docs-binary
 cd ..
